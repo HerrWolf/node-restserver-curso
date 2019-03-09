@@ -1,7 +1,7 @@
 // =======================================
 //  Puerto                               =
 // =======================================
-process.env.PORT = process.env.PORT || 3000;
+process.env.PORT = process.env.PORT || 8080;
 
 // =======================================
 //  Entorno                              =
@@ -39,3 +39,8 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB;
+
+// =======================================
+//  Google ClientID                      =
+// =======================================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '672985579240-upvpbsqjeul4vo7o4h80ngsast8qn46j.apps.googleusercontent.com';
